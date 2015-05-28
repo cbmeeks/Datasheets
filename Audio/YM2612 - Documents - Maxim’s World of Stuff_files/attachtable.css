@@ -1,0 +1,43 @@
+.attachtable td, .attachtable th { padding-right: 0.8em; white-space: nowrap; }
+.attachtable th {
+	color: #999;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 0.8em;
+	text-align: right;
+}
+.attachtable th a { color: #999; }
+.attachtable a { text-decoration: none !important; }
+.attachtable a:hover { text-decoration: underline !important; }
+.attachtable .del, .attachtable .del a { color: #ccc; }
+.attachtable tr:hover { background-color: #eee; }
+.attachtable thead tr:hover th, .attachtable tfoot tr:hover th,
+	.attachtable .del:hover, .attachtable .del:hover a { color: #666; }
+.attachtable .orphan { color: #c00; font-weight: bold; }
+.attachtable .missing { font-style: italic; }
+.attachtable .refbox {
+	display: none;
+	position: absolute;
+	z-index: 2;
+	margin: -0.75em 0 0 1.5em;
+	padding: 0.25em;
+	background-color: #eee;
+	color: #000;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+.attachtable .refbox ul, .attachtable .refbox li { padding: 0; margin: 0 0 0 1em; }
+.attachtable td:hover .refbox { display: block; }
+
+.attachtable .fileinfo {
+	display: block;
+	width: 0.8em;
+	text-align: center;
+	padding: 1px;
+}
+.attachtable a.fileinfo:hover {
+	padding: 0;
+	border: 1px solid;
+	text-decoration: none !important;
+}
+.attachtable .refbox table { line-height: 1.0 !important; }

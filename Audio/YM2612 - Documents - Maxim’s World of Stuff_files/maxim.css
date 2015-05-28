@@ -1,0 +1,172 @@
+body {
+	margin: 0px; padding: 0px;
+	background-color: #006699;
+	color: #666;
+	font-family: Candara, Meiryo, Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	line-height: 120%;
+	background:url('image/bg.jpg');
+}
+
+table { border-collapse: collapse; } /*margin: 12px auto; }*/
+/* table tr td, table tr th { padding: 4px 6px; vertical-align: middle; } */
+form { margin: 0px; padding: 0px; }
+hr { border: none; height: 1px; background-color: #ccc; color: #ccc; width: 100%; }
+p { margin: 0px; padding: 0px; }
+
+ul { margin: 0px 24px; padding: 0px; list-style: disc outside; }
+ul ul { margin-top: 0px; padding-top: 0px; list-style: circle outside; }
+ul ul ul { margin-top: 0px; padding-top: 0px; list-style: square outside; }
+
+a { text-decoration:none; color: #00f; }
+a:visited { text-decoration:none; color: #00f; }
+a:hover { text-decoration:underline; color: #00f; }
+a:active { color: #00f; }
+
+.vspace { margin-top: 1em; }
+.content-mat { padding: 14px 15px 10px 25px; margin: auto; background: none; }
+.clearer{ clear: both; display: block;  margin: 0px; padding: 0px; height: 0px; line-height: 1px; font-size: 0px; }
+.borderless-table tr td { border: none }
+
+#header { width: 870px; height: 90px; margin: 10px auto 0px auto; text-align: left; }
+#header #page-title { color: #fff; font-size: 20pt; font-weight: bold; padding: 20px 8px 8px 30px; text-shadow: #000 2px 2px 4px; }
+#header #page-subtitle { color: #fff; font-size: 14pt; font-weight: bold; padding: 8px 8px 8px 30px; text-shadow: #000 2px 2px 4px; }
+#header a { color: inherit; }
+
+#main {
+    width: 870px; margin: 0px auto;
+    background: url(image/Box-Middle.png) repeat-y top center;
+    border-bottom: 1px solid transparent;
+}
+
+#main h1 { font-size: 16pt; margin: 0px; padding: 0px; margin-bottom:1em; }
+#main h2 { font-size: 14pt; margin: 0px; padding: 0px; margin-bottom:1em; }
+#main h3 { font-size: 12pt; margin: 0px; padding: 0px; margin-bottom:1em; }
+#main h4 { font-size: 11pt; margin: 0px; padding: 0px; margin-bottom:1em; }
+#main h5 { font-size: 11pt; font-style: italic; margin: 0px; padding: 0px; margin-bottom:1em; }
+
+#wikitext h1 a, #wikitext h2 a, #wikitext h3 a, #wikitext h4 a, #wikitext h5 a { color:#666 !important; text-decoration:underline !important;}
+
+#content {
+	position: relative;
+	float: left;
+	width: 815px;
+	text-align: left;
+	min-height: 400px;
+	background: white; /* to encourage usable selection colours */
+}
+
+#wikitext {
+	float: right;
+	clear: right;
+	width: 620px;
+	padding-left: 20px;
+	padding-right: 5px;
+}
+
+#sidebar .wikilink { color: #666; }
+#sidebar .urllink { color: #666 }
+#sidebar .selflink { color: #666; font-weight:bold; }
+
+#sidebar {
+	float: left;
+	width: 155px;
+	margin: 0px;
+	padding-right: 10px;
+	border-right: 1px solid #ccc;
+}
+
+#sidebar h2 {
+	margin:0;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding-left:1em;
+	list-style-type:none;
+}
+
+#sidebar li {
+	line-height:120%;
+	margin-bottom:0.3em;
+	margin-top:0.3em;
+}
+
+#footer {
+    background: url(image/Box-Bottom.png) no-repeat top center;
+    width: 870px; height: 40px;
+    border: 1px none #ccc; 
+    margin: 0px auto; padding: 0px 0px 8px 0px;
+}
+
+#copyright { margin: 0px 20px 0px 20px; padding: 2px 0px; border-top: 1px solid #ccc; font-size: 80%; }
+
+#menubar {
+    margin: 0px 13px 0px 12px;
+    padding: 2px 12px 1px 12px;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #e8e8e8;
+    text-align: left;
+    font-size: 8pt; font-weight: bold;
+	border-bottom: 1px solid #ccc;
+}
+
+#menubar ul { margin: 0px; padding: 0px; }
+#menubar ul li { list-style: none; display: inline; text-indent: 0px; text-align: left; padding-right: 8px; }
+#menubar a { color: #666; }
+
+#text { margin-top: 12px; margin-bottom: 12px; font-family: monospace; }
+
+pre {
+	font-size: 9pt;
+	background-color: #fffff4;
+	border: 1px solid #999;
+	line-height: 15px;
+}
+
+textarea { 
+	margin-top: 12px; 
+	margin-bottom: 12px; 
+	font-size: 9pt; 
+}
+
+.column {
+	border: 0px;
+	margin: 0px;
+}
+
+td.column {
+	padding: 0px 10px 0px 10px;
+}
+
+.difftype,.difftime,.diffrestore {
+    font-size: 8pt;
+}
+
+#wikitext a.urllink {
+   background: url(image/external.png) center right no-repeat;
+   padding-right: 13px;
+} 
+
+#wikitext a.attachlink {
+   background: url(image/attach.png) center left no-repeat;
+   padding-left: 13px;
+}
+
+.lfloat {
+	margin: 5px 15px 5px 0;
+}
+
+.rfloat {
+	margin: 5px 0px 5px 10px;
+} 
+
+div.sourceblocktext {
+	overflow-x: auto;
+	width: 600px;
+	white-space: nowrap;
+}
+
+pre, code, div.sourceblocktext div.c { font-family: Consolas, monospace !important; background-color: #f1f0ed; padding: 0 2px; color: black; }
+
+textarea#text { width:100%; height:500px; font-family:Consolas, fixed; }
